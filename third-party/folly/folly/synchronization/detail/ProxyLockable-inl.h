@@ -14,6 +14,7 @@
 #include <mutex>
 #include <stdexcept>
 #include <utility>
+#include <system_error>
 
 namespace folly {
 namespace detail {
