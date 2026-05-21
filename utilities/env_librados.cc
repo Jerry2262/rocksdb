@@ -237,8 +237,7 @@ public:
   };
 
   //enum AccessPattern { NORMAL, RANDOM, SEQUENTIAL, WILLNEED, DONTNEED };
-  void Hint(AccessPattern /*pattern*/) { /* Do nothing */
-  }
+  void Hint(AccessPattern /*pattern*/) { /* Do nothing */ }
 
   /**
    * @brief noop
